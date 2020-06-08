@@ -1,14 +1,15 @@
-<html lang=es>
+<!doctype html>
+<html lang="en">
 <head>
-<title>Formulario</title>
+    <meta charset="UTF-8">
+    <title>=Mail</title>
 </head>
-<body>
-<form action="enviar.php method="post">
-<h2>Contacto</h2>
-<input  type="text" name="Nombre" placeholder="Nombre" required>
-<input  type="text" name="Nombre" placeholder="Correo" required>
-<textarea name="mensaje"placeholder="Escriba aqui su mensaje"></textarea>
-<input type="submit" value="ENVIAR" id="boton">
+<body> 
+<form action="mail.php" method="post">
+Correo electronico:<input type="email name="christianyahirruizperez@gmail.com"> /><br>
+Escribe tu comentario:<br>
+<textarea name="com"></textarea><br>
+<input type="submit" name="enviar" value="Enviar comentario">
+
 </form>
 </body>
-</html>
